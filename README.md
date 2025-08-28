@@ -48,6 +48,7 @@ print(f"Precisión del modelo: {precision * 100:.2f}%")
 nueva_flor = [[5.1, 3.5, 1.4, 0.2]]  # ejemplo con características de una flor
 prediccion = modelo.predict(nueva_flor)
 print(f"La flor es de tipo: {iris.target_names[prediccion[0]]}")
+
 📌 ¿Qué hace este programa?
 ✅ Carga un dataset real de flores Iris.
 ✅ Entrena un modelo de clasificación usando K-Nearest Neighbors (KNN).
@@ -55,8 +56,7 @@ print(f"La flor es de tipo: {iris.target_names[prediccion[0]]}")
 ✅ Predice el tipo de flor para una nueva muestra basada en sus características.
 
 ✅ Resultado esperado (ejemplo)
-plaintext
-Copiar código
+
 Precisión del modelo: 100.00%
 La flor es de tipo: setosa
 ⚠️ Nota: La precisión puede variar levemente dependiendo de la división aleatoria del dataset.
