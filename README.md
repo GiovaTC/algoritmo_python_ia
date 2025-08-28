@@ -1,4 +1,7 @@
 # algoritmo_python_ia
+
+<img width="1283" height="1079" alt="image" src="https://github.com/user-attachments/assets/8937cbdc-42d8-4f6a-9df6-25ac4ba3bb14" />
+
 # 🌸 Clasificador de Flores Iris con Scikit-learn
 
 Este programa entrena un modelo de inteligencia artificial para predecir si una flor es del tipo **Setosa**, **Versicolor** o **Virginica**, utilizando el famoso dataset **Iris**.
